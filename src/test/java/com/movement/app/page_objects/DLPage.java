@@ -13,6 +13,7 @@ public class DLPage extends PageObject {
 	public static Target SELECT_PRESENCE3 = Target.the("select").locatedBy("//select[@Id='chg_3']");
 	public static Target SELECT_PRESENCE4 = Target.the("select").locatedBy("//select[@Id='chg_4']");
 	public static Target SELECT_PRESENCE5 = Target.the("select").locatedBy("//select[@Id='chg_5']");
+	public static Target SELECT_PRESENCE6 = Target.the("select").locatedBy("//select[@Id='chg_6']");
 	public static Target PUBLISH_BTN = Target.the("publish").locatedBy("//input[@value='Publish']");
 	public static Target SAVE_AS_DRAFT_BTN = Target.the("draft").locatedBy("//input[@value='Save as draft']");
 	public static Target CONFIRM_BTN = Target.the("confirm").locatedBy("//button[contains(text(),'Ok')]");
