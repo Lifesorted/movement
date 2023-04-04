@@ -53,6 +53,7 @@ public class DailyLeadership extends UIInteractions implements Task {
 		actor.attemptsTo(SelectFromOptions.byVisibleText(attend).from(DLPage.SELECT_PRESENCE3));
 		actor.attemptsTo(SelectFromOptions.byVisibleText(attend).from(DLPage.SELECT_PRESENCE4));
 		actor.attemptsTo(SelectFromOptions.byVisibleText(attend).from(DLPage.SELECT_PRESENCE5));
+		actor.attemptsTo(SelectFromOptions.byVisibleText(attend).from(DLPage.SELECT_PRESENCE6));
 		waitABit(1500);
 
 		actor.attemptsTo(Enter.keyValues(meetingnotes).into(DLPage.MEETING_NOTES));
